@@ -1,0 +1,10 @@
+(
+    (
+        SUCCESS =:= 1,
+        SUCCESSNEXT is 1
+    ) ;
+    (
+        SUCCESS =:= 0,
+        recusive call here
+    )
+)

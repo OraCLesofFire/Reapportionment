@@ -1,0 +1,19 @@
+    - Have multiple programs, each which utilizes a different algorithm.
+        - starting condition = random, center, MAXINDEX
+        - size of search area for maxindex = 1,2,3,4,5 tiles. (eww @ 5)
+        - ordered index queue in recursion.
+    - utilize basic ML to predict which algorithm is best based on the circumstances.
+        - predictors:
+            - Average Value (Density)
+            - City size
+            - Success / Fail (output variable)
+            - Solution time (recursive calls) (output variable)
+            - number of districts
+        - Response:
+            - which model was best (lowest solution time) for the given input.
+    - Can I make prolog write to a file
+    - Can I make prolog read from a file?
+        - would make test cases easier
+    - Can I make prolog use random numbers?
+
+    - GITHUB REPO
